@@ -1,4 +1,4 @@
-package com.example.demo.gemstone.backend;
+package com.example.gems.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

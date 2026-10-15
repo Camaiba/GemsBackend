@@ -1,4 +1,4 @@
-package com.example.demo.gemstone.backend;
+package com.example.gems.user;
 
 public enum Role {
     ADMIN, DEALER, BUYER

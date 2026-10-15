@@ -1,4 +1,4 @@
-package com.example.demo.gemstone.backend;
+package com.example.gems.user;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -19,4 +19,7 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     private Role role;
+
+    @Column(name = "must_change_password", nullable = false)
+    private boolean mustChangePassword;
 }

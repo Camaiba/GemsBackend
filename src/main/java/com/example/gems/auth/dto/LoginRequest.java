@@ -1,9 +1,9 @@
-package com.example.demo.gemstone.backend;
+package com.example.gems.auth.dto;
 
 import lombok.Data;
 
 @Data
-public class RegisterRequest {
+public class LoginRequest {
     private String login;
     private String password;
 }
